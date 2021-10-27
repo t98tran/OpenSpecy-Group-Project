@@ -36,6 +36,7 @@ const Upload = () => {
         padding: "1rem 1rem 1rem",
         border: "double #f7f7f9",
         backgroundColor: "rgb(220, 220, 220, 0.5)",
+        display: "block"
       }}
     >
       <br></br>
@@ -60,7 +61,31 @@ const Upload = () => {
           />
         </form>
       </div>
+        <br></br>
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          alignContent: "center",
+        }}>
+          <div style={{
+            border: "solid black",
+            backgroundColor: "rgba(141, 138, 138, 0.5)",
+            padding: "2rem",
+            width: "80%",
+            textAlign: "center"
+          }}>
+            <h4 id="placeholder1">Upload some data to get started...</h4>
+            <div style={{
+              width: "100%",
+              height: "30rem", 
+              visibility: "hidden"
+            }}
+            >
+            </div>
+          </div>
+        </div>
     </div>
+
   );
   // return (
   //   <div
